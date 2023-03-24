@@ -45,3 +45,42 @@ footer {
     }
   }
 }
+
+.section {
+  background-color: darkorchid;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.item {
+  background-color: blueviolet;
+  max-width: 25rem;
+
+  img{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .item-text {
+    padding: 1.5rem;
+  }
+}
+
+#home {
+  flex-grow: 1;
+}
+
+.swiper-slide {
+  width: 1275px;
+  height: 30rem !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
